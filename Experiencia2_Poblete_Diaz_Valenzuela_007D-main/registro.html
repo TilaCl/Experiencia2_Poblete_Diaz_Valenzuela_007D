@@ -18,8 +18,8 @@
       </div>
           <nav>
             <a href="login.html" class="nav-links">Login</a>
-            <a href="" class="nav-links">Registrarse</a>
-            <a href=""><span id="carrito" class="material-icons">&#xe8cc</span></a>
+            <a href="registro.html" class="nav-links">Registrarse</a>
+            <a href="carrito.html"><span id="carrito" class="material-icons">&#xe8cc</span></a>
           </nav>
       </header>
       <div class="nav-2">
@@ -37,6 +37,7 @@
         </div>
       </div>
     </header>
+    <form action="/my-handling-form-page" method="post">
     <section class="form-registro">
       <h4>Registro</h4>
       <input class="controls" type="text" name="nombres" id="nombres" placeholder="Ingrese su Nombre">
@@ -47,6 +48,7 @@
       <input class="botons" type="submit" value="Registrar">
       <p><a href="login.html">¿Ya tienes Cuenta?</a></p>
     </section>
+    </form>
     <br><br><br>
     <footer>
       <div class="container"> 
@@ -67,5 +69,16 @@
           </div>
         </div>
     </footer>
+    <script>
+      var present = document.getElementById("copy");
+    function cambiarn (){
+        present.innerHTML = "<h4 style= 'color: rgb(225, 192, 46)';>Creadores de Proyecto</h4>";
+    }
+    function cambiarn1(){
+      present.innerHTML = "&copy;Romina,Manuel,Felipe.";
+    }
+    present.onmouseover = cambiarn;
+    present.onmouseout = cambiarn1;
+    </script>
 </body>
 </html>
