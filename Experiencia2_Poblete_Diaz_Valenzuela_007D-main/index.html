@@ -20,8 +20,8 @@
       </div>
       <nav>
         <a href="login.html" class="nav-links">Login</a>
-        <a href="registro.html" class="nav-links">Registrarse</a>
-        <a href="#"><span id="carrito" class="material-icons">&#xe8cc</span></a>
+        <a href="registro.html" class="nav-links">Registrarse</a >
+        <a href="carrito.html"><span id="carrito" class="material-icons">&#xe8cc</span></a>
       </nav>
   </header>
 
@@ -43,13 +43,13 @@
   <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
     <div class="carousel-inner">
       <div  class="carousel-item active">
-        <img class="center" src="img/fondo2.jpg" d-block w-100 alt="..." style=" filter: brightness(70%); width: 22cm;" >
+        <img class="center" src="img/fondo2.jpg" d-block w-100 alt="..." style=" filter: brightness(70%);" >
       </div>
       <div class="carousel-item">
-        <a href="ubicanos.html"><img  class="center" src="img/mapaUbicanos2.jpg" d-block w-100 alt="..." style="filter: brightness(90%);width: 22cm;"></a>
+        <a href="ubicanos.html"><img  class="center" src="img/mapaUbicanos2.jpg" d-block w-100 alt="..." style="filter: brightness(90%);" ></a>
       </div>
       <div class="carousel-item">
-        <img  class="center" src="img/background-gris.png" d-block w-100 alt="..." style="filter: brightness(70%);width: 22cm;">
+        <img  class="center" src="img/background-gris.png" d-block w-100 alt="..." style="filter: brightness(70%);">
       </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
       <span style="background-color: black; height: 50px;" class="carousel-control-prev-icon" aria-hidden="true" ></span>
@@ -111,5 +111,17 @@
         </div>
       </div>
   </footer>
+<!--EVENTO MOUSE FOOTER-->
+  <script>
+     var present = document.getElementById("copy");
+    function cambiarn (){
+        present.innerHTML = "<h4 style= 'color: rgb(225, 192, 46)';>Creadores de Proyecto</h4>";
+    }
+    function cambiarn1(){
+      present.innerHTML = "&copy;Romina,Manuel,Felipe.";
+    }
+    present.onmouseover = cambiarn;
+    present.onmouseout = cambiarn1;
+  </script>
 </body>
 </html>
