@@ -19,6 +19,29 @@ header{
     align-items: center;
 
 }
+
+.summary{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  text-align: center;
+  font-weight: 500;
+}.summary button{
+    text-decoration: none;
+    background-color: #723195;
+    color: white;
+    margin-bottom: 10px;
+}.summary button:hover{
+    color:white;
+    height: 39px;
+    transition: 1s;
+    font-size: 19px;
+}.summary div{
+    margin-bottom: 15px;
+}
+
+
 footer{
     background-color: #723195;
     height: 100px;
@@ -61,7 +84,7 @@ footer{
 }
 #copy{
     text-align: center;
-    color: rgb(157, 152, 152);
+    color: rgb(229, 210, 210);
     position: relative; bottom: 15px; right: -100px;
 }
 #links a{
@@ -119,6 +142,13 @@ nav a{
     left: 11cm;
 }
 
+.center{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 55%;
+}
+
 
 /*Responsive*/
 @media (max-width:700px){
@@ -133,6 +163,8 @@ nav a{
         top: 10px;
         right: 0.5%;
     }
+
+   
 
     #inicio a, #comprar a, #perros a, #gatos a{
     padding: 15px;
@@ -162,8 +194,10 @@ nav a{
     #royal{
         height: 20px;
     }
+    
 
 }
+
 
 /*Responsive IMG, mapa*/
 @media (max-width:1200px){
@@ -198,6 +232,13 @@ nav a{
             position: relative;
             left: -6cm;
         }
+        .center{
+            display: block;
+          margin-left: auto;
+          margin-right: auto;
+          width: 70%;
+        }
+        
     }@media (max-width:540px){
         #royal{
             height: 50px;
@@ -211,8 +252,15 @@ nav a{
             left: -6cm;
             margin-bottom: 15px;
         }
+        .center{
+            display: block;
+          margin-left: auto;
+          margin-right: auto;
+          width: 80%;
+        }
         
     }
+
 
 }
 
@@ -349,9 +397,3 @@ transition: opacity 400ms ease-in;
 .close:hover { background: #ca850e; }
 
 
-.center{
-    display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-}
