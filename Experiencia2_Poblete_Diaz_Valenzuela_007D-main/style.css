@@ -554,3 +554,11 @@ main {
 		width: 100%;
 	}
 }
+
+/* ----- -----  Cursor /puntero /click----- ----- */
+*{
+    cursor: url("img/cursor.png"), auto;
+}
+a{
+    cursor: url("img/cursorpuntero.png"), auto;
+}
