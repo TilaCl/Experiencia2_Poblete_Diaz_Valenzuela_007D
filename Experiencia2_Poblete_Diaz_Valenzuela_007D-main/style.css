@@ -403,6 +403,17 @@ main {
 	margin: auto;
 	padding: 40px;
     color: #723195;
+    font-family: cursive;
+    background: #723195;
+	color: #FFFFFF;
+	line-height: 25px;
+	text-align: center;
+	text-decoration: none;
+	font-weight: bold;
+	border-radius: 12px;
+	-moz-box-shadow: 1px 1px 3px #000;
+	-webkit-box-shadow: 1px 1px 3px #000;
+    box-shadow: #43145c 7px 13px 37px;
 }
 
 .formulario {
@@ -415,7 +426,7 @@ main {
 	display: block;
 	font-weight: 700;
 	padding: 10px;
-	cursor: pointer;
+	cursor: pointer;;
 }
 
 .formulario__grupo-input {
@@ -436,7 +447,7 @@ main {
 .formulario__input:focus {
 	border: 3px solid #723195;
 	outline: none;
-	box-shadow: 3px 0px 30px rgba(163,163,163, 0.4);
+	box-shadow: 3px 0px 30px rgba(163, 163, 163, 0.4);
 }
 
 .formulario__input-error {
@@ -489,6 +500,7 @@ main {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+    
 }
 
 .formulario__btn {
@@ -502,6 +514,7 @@ main {
 	border-radius: 3px;
 	cursor: pointer;
 	transition: .1s ease all;
+    
 }
 
 .formulario__btn:hover {
